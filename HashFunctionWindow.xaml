@@ -1,0 +1,33 @@
+﻿<Window x:Class="KMiSOIB.HashFunctionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KMiSOIB"
+        mc:Ignorable="d"
+        Title="БПЗ1702 Ландызин А.Н. Реализация функции хеширования" Height="184.248" Width="476.268">
+    <Grid Background="#4dfed1">
+        <TextBox x:Name="MessageTB" HorizontalAlignment="Left" Height="23" Margin="92,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="ЛАНДЫЗИН"/>
+        <TextBox x:Name="qTB" HorizontalAlignment="Left" Height="23" Margin="92,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="11"/>
+        <TextBox x:Name="resTB" HorizontalAlignment="Left" Height="23" Margin="358,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74" IsReadOnly="True"/>
+        <Button Background="#4dfed1" Content="Назад" HorizontalAlignment="Left" Margin="227,77,0,0" VerticalAlignment="Top" Width="70" Click="Exit_Button_Click" Height="56"/>
+        <Button Background="#4dfed1" x:Name="Proceed_Button" Content="Выполнить" HorizontalAlignment="Left" Margin="228,12,0,0" VerticalAlignment="Top" Width="68" Click="Button_Click" Height="53" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.474"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.505"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label Content="Сообщение:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="p = " HorizontalAlignment="Left" Margin="60,111,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="pTB" HorizontalAlignment="Left" Height="23" Margin="92,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="7"/>
+        <Label Content="q = " HorizontalAlignment="Left" Margin="60,77,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.094,0.885"/>
+        <Label Content="Хеш-образ:" HorizontalAlignment="Left" Margin="358,26,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="H0TB" HorizontalAlignment="Left" Height="23" Margin="92,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="8"/>
+        <Label Content="H0:" HorizontalAlignment="Left" Margin="59,41,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

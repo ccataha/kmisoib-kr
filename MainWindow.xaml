@@ -1,0 +1,31 @@
+﻿<Window x:Class="KMiSOIB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KMiSOIB"
+        mc:Ignorable="d"
+        Icon="crypto.ico"
+        Title="Курсовая работа КМИСОиБ БПЗ1702 Ландызин А.Н." Height="433.442" Width="1208.45">
+    <Grid RenderTransformOrigin="0.493,0.602" Background="#4dfed1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="110*"/>
+            <ColumnDefinition Width="61*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120*"/>
+            <RowDefinition Height="149*"/>
+        </Grid.RowDefinitions>
+        <Button Background="#4dfed1" x:Name="RsaWindow_Button" Content="Rivest-Shamir-Adleman (RSA)" HorizontalAlignment="Left" Margin="217,151,0,0" VerticalAlignment="Top" Width="201" RenderTransformOrigin="0.053,1" Click="RsaWindow_Button_Click" Height="56" Grid.Column="1" Grid.RowSpan="2"/>
+        <Button Background="#4dfed1" x:Name="GostWindow_Button" Content="ГОСТ 28147-89" HorizontalAlignment="Left" Margin="217,88,0,0" VerticalAlignment="Top" Width="201" RenderTransformOrigin="0.053,1" Click="GostWindow_Button_Click" Height="56" Grid.Column="1"/>
+        <Button Background="#4dfed1" x:Name="DesWindow_Button" Content="Data Encryption Standard (DES)" Margin="0,27,10,0" VerticalAlignment="Top" RenderTransformOrigin="0.053,1" Click="DesWindow_Button_Click" Height="56" HorizontalAlignment="Right" Width="201" Grid.Column="1"/>
+        <Button Background="#4dfed1" x:Name="HashFunctionWindow_Button" Content="Функция хеширования" HorizontalAlignment="Left" Margin="217,38,0,0" VerticalAlignment="Top" Width="201" RenderTransformOrigin="0.053,1" Click="HashFunctionWindow_Button_Click" Height="56" Grid.Column="1" Grid.Row="1"/>
+        <Button Background="#4dfed1" x:Name="DsWindow_Button" Content="Электронная цифровая подпись" HorizontalAlignment="Left" Margin="217,99,0,0" VerticalAlignment="Top" Width="201" RenderTransformOrigin="0.053,1" Click="DsWindow_Button_Click" Height="52" Grid.Row="1" Grid.Column="1"/>
+        <Button Background="#4dfed1" Content="Выход" HorizontalAlignment="Left" Margin="217,156,0,0" VerticalAlignment="Top" Width="201" Click="Exit_Button_Click" Height="50" Grid.Row="1" Grid.Column="1"/>
+        <Label Content="                           Ордена Трудового Красного Знамени федеральное &#xD;&#xA;государственное бюджетное образовательно учреждение высшего образования &#xD;&#xA;          «Московский технический университет связи и информатики» (МТУСИ)"  FontSize="20"  Margin="181,12,240,0" VerticalAlignment="Top" Height="109" Grid.ColumnSpan="2"/>
+        <Label Content="                               Курсовая работа &#xD;&#xA;по дисциплине Криптографические методы и средства&#xD;&#xA;      обеспечения информационной безопасности"  FontSize="22"  Margin="307,121,0,0" VerticalAlignment="Top" Height="122" Grid.RowSpan="2" Grid.ColumnSpan="2" HorizontalAlignment="Left" Width="601"/>
+        <Label Content="Выполнил: студент БПЗ1702&#xD;&#xA;Ландызин А.Н.&#xD;&#xA;Проверил: д.т.н. Шелухин О.И."  FontSize="22"  Margin="425,74,25,0" VerticalAlignment="Top" Height="113" Grid.Row="1"/>
+        <Image Source="Mtuci_logo.png" Margin="-9,0,655,0" Height="111" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
