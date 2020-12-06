@@ -33,5 +33,10 @@ namespace KMiSOIB
         {
             this.Close();
         }
+
+        private void H0TB_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

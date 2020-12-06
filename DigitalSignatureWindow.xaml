@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="БПЗ1702 Ландызин А.Н. Реализация ЭЦП" Height="144.729" Width="459.071">
     <Grid Background="#4dfed1">
-        <TextBox x:Name="HashTB" HorizontalAlignment="Left" Height="23" Margin="114,13,0,0" TextWrapping="Wrap" Text="69" VerticalAlignment="Top" Width="94"/>
-        <TextBox x:Name="PrivateKeyTB" HorizontalAlignment="Left" Height="23" Margin="114,44,0,0" TextWrapping="Wrap" Text="35 221" VerticalAlignment="Top" Width="94"/>
-        <TextBox x:Name="PublicKeyTB" HorizontalAlignment="Left" Height="23" Margin="114,77,0,0" TextWrapping="Wrap" Text="11 221" VerticalAlignment="Top" Width="94"/>
+        <TextBox x:Name="HashTB" HorizontalAlignment="Left" Height="23" Margin="114,13,0,0" TextWrapping="Wrap" Text="2386" VerticalAlignment="Top" Width="94"/>
+        <TextBox x:Name="PrivateKeyTB" HorizontalAlignment="Left" Height="23" Margin="114,44,0,0" TextWrapping="Wrap" Text="35 2773" VerticalAlignment="Top" Width="94"/>
+        <TextBox x:Name="PublicKeyTB" HorizontalAlignment="Left" Height="23" Margin="114,77,0,0" TextWrapping="Wrap" Text="991 2773" VerticalAlignment="Top" Width="94"/>
         <TextBox x:Name="EncryptedTB" HorizontalAlignment="Left" Height="23" Margin="310,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
         <TextBox x:Name="DecryptedTB" HorizontalAlignment="Left" Height="23" Margin="310,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
         <Button Background="#4dfed1" x:Name="Proceed_Button" Content="Выполнить" HorizontalAlignment="Left" Margin="219,13,0,0" VerticalAlignment="Top" Width="75" Click="Proceed_Button_Click" Height="35"/>
